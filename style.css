@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: darkgoldenrod; */
+}
+.page1top{
+    height: 80vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/9d/53/77/9d537722db9789266f0ad0c319947aae.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vmax;
+}
+.logo>img{
+    height: 8vh;
+}
+.nav >ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3vmax;
+}
+.nav >ul >li{
+    /* background-color: red; */
+    padding: 0.3vmax 0.7vmax 0.3vmax 0vmax;
+    border-bottom: 0.1vmax dashed transparent;
+    border-top-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    transition: all linear 0.5s;
+    font-weight: 700;
+    color: rgb(229,214,136);
+}
+.nav >ul >li:hover{
+    /* background-color: yellow; */
+    border-bottom: 0.1vmax dashed rgb(229,214,136);
+
+}
+.page1top >h3{
+    font-size: 2.5vmax;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1top >h1{
+    font-size: 5vmax;
+    color: white;
+}
+.page1top >h5{
+    text-align: center;
+    font-size: 1.3vmax;
+    letter-spacing: 0.5vmax;
+    color: rgba(255, 255, 255, 0.708);
+}
+.page1-car{
+    position: absolute;
+    bottom: 5%;
+    height: 55vh;
+    width: 60%;
+    /* background-color: yellowgreen; */
+    background-image: url(./page1\ car.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vmax;
+}
+.page1buttom{
+    height: 20vh;
+    width: 100%;
+    background-color: yellow;
+}
